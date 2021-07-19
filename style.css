@@ -1,0 +1,123 @@
+.instagram-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imagem-example {
+    height: 553px;
+    width: 500px;
+}
+
+.instagram-perfil{
+    font-family: system-ui;
+}
+
+.containerOne{  
+    display: grid;
+    justify-items:center;
+    border-style: solid;
+    border-color:rgb(228, 228, 228);
+    max-width: 320px;
+    height: 350px;
+}
+
+.logoPerfil{
+    margin-left: 0%;
+    width: 200px;
+    height: 80px;
+}
+
+.imagenPerfil{
+    max-width: 120px;
+    max-height: 130px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#user{
+    border-style: solid;
+    background: #1E90FF;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+    max-height: 25px;
+}
+
+#remove{
+    border-style: solid;
+    background: #1E90FF;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+    max-height: 25px;
+}
+
+.containertwo{
+    max-width: 320px;
+    max-height: 200px;
+    text-align: center;
+    border-style: solid;
+    border-color:rgb(228, 228, 228);
+    color:rgb(139, 137, 137);
+    font-family: system-ui;
+    margin-top: 5px;
+}
+
+.accounts{
+    color: #1E90FF;
+    font-weight: bold;
+}
+
+.containerthree{
+    text-align: center;
+    max-width: 320px;
+}
+
+.logo-app-store{
+    max-width: 140px;
+    margin-bottom: 7.5px;
+}
+
+.logo-play-store{
+    max-width: 140px;
+    height: 58px;
+    width: auto;
+}
+
+@media only screen and (max-width: 750px) {
+     .imagem-example {
+         display: none;
+      } 
+
+      #user{
+          font-size: 11px;
+      }
+    }
+
+    @media only screen and (max-width: 1300px){
+         #user{
+             font-size: 12px;
+         }
+
+         #remove{
+             font-size: 12px;
+         }
+       }
+
+       @media only screen and (max-width: 750px){
+        #user{
+            font-size: 16px;
+        }
+
+        #remove{
+            font-size: 16px;
+        }
+      }
